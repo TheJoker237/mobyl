@@ -1,0 +1,36 @@
+# Configuration de base de données
+db.php
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Cache
+cache/
+tmp/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dépendances (si vous utilisez Composer plus tard)
+vendor/
+composer.lock
+
+# Variables d'environnement
+.env
+.env.local
+.env.production
