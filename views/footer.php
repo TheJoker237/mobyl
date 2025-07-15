@@ -107,12 +107,15 @@
          </div>         
       </footer>
       <!-- footer-end -->
-      <!-- JS here -->
+      <!-- JS here - Optimisé avec CDNs -->
       <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-      <script src="js/vendor/jquery-3.6.0.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/slick.min.js"></script>
+      <!-- jQuery via CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- Bootstrap via CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js" integrity="sha512-VK2zcvntEufaimc+efOYi622VN5ZacdnufnmX7zIhCPmjhKnOi9ZDMtg1/ug5l183f19gG1/cBstPO4y8Fm5+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- Swiper via CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.4/swiper-bundle.min.js" integrity="sha512-k2o9KvHf5L4dqnZZ5tEQbW9ArnP9OW2LZ4u0/xKOj3p/Pz4UzYl6w7b2c1x0YF8kQqz1A1wdHcZw8zJ3RXnzKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- Scripts locaux conservés -->
       <script src="js/ajax-form.js"></script>
       <script src="js/paroller.js"></script>
       <script src="js/wow.min.js"></script>
@@ -124,7 +127,6 @@
       <script src="js/jquery.scrollUp.min.js"></script>
       <script src="js/jquery.meanmenu.min.js"></script>
       <script src="js/parallax-scroll.js"></script>
-      <script src="js/swiper.min.js"></script>
       <script src="js/aos.js"></script>
       <script src="js/jquery.magnific-popup.min.js"></script>
       <script src="js/element-in-view.js"></script>

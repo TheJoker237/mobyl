@@ -32,6 +32,24 @@ git clone https://github.com/[votre-username]/mobyl.git
 php -S localhost:8000
 ```
 
+## Optimisations
+
+Ce projet a été optimisé pour réduire sa taille :
+
+### 🚀 CDN utilisés
+- **FontAwesome** : Chargé via CDN au lieu des fichiers locaux (15M économisés)
+- **jQuery** : Version CDN avec fallback local
+- **Bootstrap** : Version CDN avec fallback local
+- **Swiper** : Version CDN avec fallback local
+
+### 📦 Fichiers exclus du repository
+- `fontawesome/` (15M) - remplacé par CDN
+- Scripts JS majeurs - remplacés par CDN
+- `img/favicon.zip` - fichier de sauvegarde inutile
+
+### 🛠️ Script d'optimisation
+Lancez `./optimize_images.sh` pour compresser les images et réduire davantage la taille.
+
 ## Pages Disponibles
 - Accueil (`?page=home`)
 - À propos (`?page=about`)

@@ -34,3 +34,15 @@ composer.lock
 .env
 .env.local
 .env.production
+
+# Fichiers volumineux optionnels (peuvent être servis via CDN)
+# Fichiers exclus pour réduire la taille du repository :
+fontawesome/
+js/bootstrap.min.js
+js/jquery*.js
+js/swiper.min.js
+js/slick.min.js
+js/popper.min.js
+
+# Images optimisées seulement
+img/favicon.zip
